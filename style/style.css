@@ -1,0 +1,73 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: #272B30;
+
+}
+
+header img {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #3A497B;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+.nav-item .nav-link.active {
+    color: #4991C3;
+}
+
+.nav-link {
+    color: white;
+    font-size: 12.5px;
+    line-height: 18.375px;
+}
+
+.nav-link:hover {
+    color: #4991C3;
+}
+
+.nav-item.nav-link:active .nav-link {
+    color: #4991C3;
+}
+
+nav span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+
+}
+.card-header{
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+.card-footer{
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+.cat , .source{
+    background-color: #32383E;
+    color: white;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.price{
+    background-color: #3A497B;
+    border-radius: 3px;
+}
+.desc, .title {
+    font-size: 12px;
+}
+.title{
+    font-weight: 500;
+}
